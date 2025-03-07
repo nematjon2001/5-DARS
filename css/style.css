@@ -23,7 +23,7 @@
     --light_gray: #FAFAFA;
     --light_orange: #FBAF85;
     --whitte: #FFFFFF;
-    --darc: #0000;
+    --darc: #000000;
     --darc_50: rgba(0, 0, 0, 0.5);
 }
 
@@ -42,7 +42,8 @@
     line-height: 44px;
     letter-spacing: 1.43px;
     margin-bottom: 32px;
-    color: var(--darc);
+    color: var(--darc); 
+    /* width: 88px; */
     text-transform: uppercase;
 }
 
@@ -89,7 +90,7 @@ body {
 
 .card_cantent {
     max-width: 445px;
-    
+    width: 445px;
 }
 
 .card_wrapper:nth-child(even){
